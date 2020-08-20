@@ -32,3 +32,9 @@
     F. Check Atlas.
 
 11. Finish exercise routes
+
+12. test your new routes
+    A. Get => http://localhost:5000/exercises/
+    B. Get => http://localhost:5000/exercises/${id}
+    C. DELETE => http://localhost:5000/exercises/${id}
+    
