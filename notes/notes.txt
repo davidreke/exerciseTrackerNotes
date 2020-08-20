@@ -1,0 +1,34 @@
+1. Create a backend folder
+2. run npm initi inside the backend folder
+3. yes to all defaults
+4. $npm install express cors mongoose dotenv
+- cors = cross origin resource sharing - now we can easily access something outside of our server
+5. npm install -g nodemon (if you don't have it already)
+6. create server.js
+7.Create .env file in backend
+8. Build Models
+9. Routes
+    A. Add to server.js
+    B. Build routes
+10. Insomnia
+    A. Post => JSON => http://localhost:5000/users/add =>{ "username":"David"}
+    B. Send => JSON =>  http://localhost:5000/users/  /should return users/
+    C. check mongoDB
+    D. Post => JSON =>  http://localhost:5000/exercises/add =>
+    {
+	"username": "david",
+	"description": "biking",
+	"duration": 300,
+	"date": "2019-05-29T02:22:49.0522"
+    }
+    repeat with
+    {
+	"username": "david",
+	"description": "pushups",
+	"duration": 3,
+	"date": "2019-05-29T02:22:49.0522"
+    }
+    E.  Get => http://localhost:5000/exercises/
+    F. Check Atlas.
+
+11. Finish exercise routes
