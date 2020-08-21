@@ -38,3 +38,21 @@
     B. Get => http://localhost:5000/exercises/${id}
     C. DELETE => http://localhost:5000/exercises/${id}
     
+---------- Finish Back End ----------
+
+----------Start Front End ----------
+1.delete comments from html and change title
+2. remove index.css and serviceworker from index.js
+3. remove logo, extra jsx, and app.css from app.js
+4. npm install bootstrap
+5. create app.js and build out
+6. Create components folder and put create-exercise, create-user, edit-exercise, exercises-list and navbar components
+7. Build out navbar component
+8. Build create-exercise component && npm install react-datepicker
+9. Build create-user
+10. connect back end to front end
+a. npm install axios
+b. import axios on the create user and then implement axios
+c. import axios on the create exercise and then implement axios
+11. Build exercise list component
+12. Build exercise component
