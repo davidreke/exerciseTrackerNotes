@@ -55,4 +55,5 @@ a. npm install axios
 b. import axios on the create user and then implement axios
 c. import axios on the create exercise and then implement axios
 11. Build exercise list component
-12. Build exercise component
+12. Add exercise component to exercise list component
+13. Build edit-exercise component
